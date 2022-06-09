@@ -1,10 +1,10 @@
 var song = document.getElementById('song')
 var buttonContainer = document.getElementById('button_container')
-function RickTime(){ /* Play the song when you click the button */
+function RickTime(){
     song.play();
 }
 
-$(document).ready(function(){ /* Hide the button and show the Rickroll Gif */
+$(document).ready(function(){
     $("#RickBG").hide();
     $("#button").click(function(){
       $("#button_container").hide();
