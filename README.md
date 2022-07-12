@@ -278,8 +278,8 @@ Cells' widths can be vary, as shown below. The output will be the same.<br>
 ## Text Line Through
 To create line through, add two tilde `~` before and after the text.<br>
 ***Markdown***<br>
-`~~Text Line Through~~`<br>
+`~~Text With Line Through~~`<br>
 
 ***Output***<br>
-~~Text Line Through~~
+~~Text With Line Through~~
 *****
