@@ -1,1 +1,1 @@
-<p text-decoration:line-through;>Incorrect</p>
+~~text-decoration:line-through;~~
