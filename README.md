@@ -273,5 +273,11 @@ Cells' widths can be vary, as shown below. The output will be the same.<br>
 10. [Tables](#tables)
 11. [Others](#others)
 
+## Text Line Through
+To create line through, add two tilde `~` before and after the text.
+***Markdown***<br>
+`~~Text Line Through~~`<br>
 
+***Output***
+~~Text Line Through~~
 *****
