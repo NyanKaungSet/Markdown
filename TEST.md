@@ -1,1 +1,1 @@
-<img src="https://github.com/CartimDraluc/Cartimpedia/blob/main/images/stat.svg" alt="Stats"/>
+<p font-size=40px>40px Font Size Text</p>
