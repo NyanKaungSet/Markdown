@@ -3,7 +3,11 @@
 
 <!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+    p{
+    font-size:100px;
+    }
+  </head>
   <body>
     <p style="font-size:40px;">40px Font Size Text</p>
   </body>
