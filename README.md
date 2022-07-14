@@ -11,6 +11,7 @@
 9. [Links](#links)
 10. [Tables](#tables)
 11. [Others](#others)
+- [Sources for Badges and Emoji](https://github.com/NyanKaungSet/Markdown/blob/main/sources.md)
 
 *****
 
