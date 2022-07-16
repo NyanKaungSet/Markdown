@@ -1,1 +1,1 @@
-<span color="red">RED</span>
+<p fill="#333333">Is it now colored?</p>
