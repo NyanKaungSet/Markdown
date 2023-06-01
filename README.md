@@ -65,7 +65,6 @@ To create paragraphs, use a blank line to separate one or more lines of text. Yo
 *****
 
 # Line Break, bold, italic and Emphasis <a id="LbEBI"></a>
-
 [Back to Top](#top)
 ## Line Break
 There are many ways to create line break. To mention a few, 
@@ -123,7 +122,6 @@ Note: The order of the `em` and `strong` tags might be reversed depending on the
 *****
 
 # Blockquotes <a id="Blockquotes"></a>
-
 [Back to Top](#top)<br>
 If you want to create a blockquote, add a > in front of the text.
 
