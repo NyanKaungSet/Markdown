@@ -155,6 +155,8 @@ To create a checklist, add a dash and brackets with a space or `x` in front of l
 | `- [ ]` Unchecked item |`<input type="checkbox" unchecked>`<br> `<label>Unchecked Item</label>`<br> | <input type="checkbox" disabled="disabled" unchecked> Unchecked item |
 | `- [x]` Checked item |`<input type="checkbox" checked>`<br> `<label>Checked Item</label>`<br> | <input type="checkbox" disabled="disabled" checked> Checked item |
 
+*****
+
 # Images <a id="images"></a>
 [Back to Top](#top)<br>
 To add an image, add an exclamation mark (`!`), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
