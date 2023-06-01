@@ -152,8 +152,8 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
 To create a checklist, add a dash and brackets with a space or `x` in front of line items.
 | Markdown                            | HTML | Output |
 |-------------------------------------|------|--------|
-| `- [ ]` Unchecked item |`<input type="checkbox" unchecked>`<br> `<label>Unchecked Item</label>`<br> | <input type="checkbox" disabled="disabled" unchecked> Unchecked item |
-| `- [x]` Checked item |`<input type="checkbox" checked>`<br> `<label>Checked Item</label>`<br> | <input type="checkbox" disabled="disabled" checked> Checked item |
+| `- [ ]` Unchecked item |`<input type="checkbox" unchecked>`<br> `<label>Unchecked Item</label>`<br> | :white_large_square: Unchecked item |
+| `- [x]` Checked item |`<input type="checkbox" checked>`<br> `<label>Checked Item</label>`<br> | :ballot_box_with_check: Checked item |
 
 *****
 
