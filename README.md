@@ -35,11 +35,11 @@ To make a heading, put `#` in front of the text. The number of `#` sign you use 
 
 Alternatively, on the line below the text add any number of == characters for heading level 1 or -- character for heading level 2.
 ***Markdown***<br>
-`Heading 1
-=========`
+`Heading 1`<br>
+`=========`
 
-`Heading 2
----------`
+`Heading 2`<br>
+`---------`
 
 
 ***Output***
@@ -147,7 +147,7 @@ If you want to create a blockquote, add a > in front of the text.
 To create an ordered list, add line items with numbers followed by periods. The numbers don't have to be in numerical order, but the list should start with the number one. To nest line items in an ordered list, indent the items four spaces or one tab.
 | Markdown                            | HTML | Output |
 |-------------------------------------|------|--------|
-| `1.` First item<br>`2.` Second item |<ol><br> <li>First item</li><br> <li>Second item</li><br> </ol> | 1. First item<br> 2. Second item |
+| `1.` First item<br>`2.` Second item |<ol><br> <li>First item</li> <li>Second item</li><br> </ol> | 1. First item 2. Second item |
 
 *****
 
@@ -166,8 +166,8 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
 To create a checklist, add a dash and brackets with a space or `x` in front of line items.
 | Markdown                            | HTML | Output |
 |-------------------------------------|------|--------|
-| `- [ ]` Unchecked item |`<input type="checkbox" unchecked>`<br> `<label>Unchecked Item</label>`<br> | <input type="checkbox" disabled="disabled" unchecked> Unchecked item |
-| `- [x]` Checked item |`<input type="checkbox" checked>`<br> `<label>Checked Item</label>`<br> | <input type="checkbox" disabled="disabled" checked> Checked item |
+| `- [ ]` Unchecked item |`<input type="checkbox" unchecked>`<br> `<label>Unchecked Item</label>`<br> |- [ ] Unchecked item |
+| `- [x]` Checked item |`<input type="checkbox" checked>`<br> `<label>Checked Item</label>`<br> | - [x] Checked item |
 
 *****
 
