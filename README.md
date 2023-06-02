@@ -33,7 +33,7 @@ To make a heading, put `#` in front of the text. The number of `#` sign you use 
 
 ### Alternate Syntax
 
-Alternatively, on the line below the text add any number of == characters for heading level 1 or -- character for heading level 2.
+Alternatively, on the line below the text add any number of == characters for heading level 1 or -- character for heading level 2.<br>
 ***Markdown***<br>
 `Heading 1`<br>
 `=========`
