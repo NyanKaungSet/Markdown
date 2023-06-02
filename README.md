@@ -12,6 +12,7 @@
 10. [Tables](#tables)
 11. [Others](#others)
 - [Sources for Badges and Emoji](https://github.com/NyanKaungSet/Markdown/blob/main/sources.md)
+- [Styling](https://github.com/NyanKaungSet/Markdown/blob/Updates/styling.md)
 
 ****Reference: The Markdown Guide By Matt Cone***
 
