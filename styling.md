@@ -2,8 +2,8 @@
 ## CSS Font Styles
 There is still no proper solution for coloring the text as far as I know. However, there are still some solution for adding colors.
 1. Screenshots *(Personally, I don't prefer this way since it takes quite some time to display the image.)*
-2. [Between `$$$$`](https://github.com/NyanKaungSet/Markdown/blob/Updates/styling.md#between-)
-3. [Use dif](https://github.com/NyanKaungSet/Markdown/blob/Updates/styling.md#using-diff)
+2. [Between `$$$$`](https://github.com/NyanKaungSet/Markdown/blob/main/styling.md#between-)
+3. [Use dif](https://github.com/NyanKaungSet/Markdown/blob/main/styling.md#using-diff)
 
 ### Between `$$$$`
 
