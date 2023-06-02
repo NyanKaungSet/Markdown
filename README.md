@@ -50,6 +50,7 @@ Heading 1
 Heading 2
 ---------
 
+### NOTE
 
 | :x: Following code will not run| :heavy_check_mark: Following code will run|
 |--------------------------|---------------------------|
@@ -157,7 +158,7 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
 |---------------------|--------------------|----------------|
 | `- First item`<br> `- Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><br> <li>First item</li><br> <li>Second item</li><br> <li>Third item</li> </ul> |
 | `* First item`<br> `* Second item`<br> `* Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><br> <li>First item</li><br> <li>Second item</li><br> <li>Third item</li> </ul> |
-| `* First item`<br> `+ Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><br> <li>First item</li><br> <li>Second item</li><br> <li>Third item</li> </ul> |
+| `* First item`<br> `+ Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul> <li>First item</li> <li>Second item</li> <li>Third item</li> </ul> |
 
 *****
 
@@ -166,8 +167,8 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
 To create a checklist, add a dash and brackets with a space or `x` in front of line items.
 | Markdown                            | HTML | Output |
 |-------------------------------------|------|--------|
-| `- [ ]` Unchecked item |`<input type="checkbox" unchecked>`<br> `<label>Unchecked Item</label>`<br> |- [ ] Unchecked item |
-| `- [x]` Checked item |`<input type="checkbox" checked>`<br> `<label>Checked Item</label>`<br> | - [x] Checked item |
+| `- [ ]` Unchecked item |`<input type="checkbox" unchecked>`<br> `<label>Unchecked Item</label>`<br> | <ul><li> [ ] Unchecked item </li></ul> |
+| `- [x]` Checked item |`<input type="checkbox" checked>`<br> `<label>Checked Item</label>`<br> | <ul><li> [x] Checked item </li></ul> |
 
 *****
 
