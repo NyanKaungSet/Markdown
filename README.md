@@ -3,7 +3,7 @@
 1. [Headings](#headings)
 2. [Paragraphs](#paragraphs)
 3. [Line Break, bold, italic and Emphasis](#LbEBI)
-4. [Blockquotes](#blockquotes)
+4. [Blockquotes](#Blockquotes)
 5. [Lists](#lists)
 6. [Images](#images)
 7. [Code](#code)
@@ -13,35 +13,50 @@
 11. [Others](#others)
 - [Sources for Badges and Emoji](https://github.com/NyanKaungSet/Markdown/blob/main/sources.md)
 
+****Reference: The Markdown Guide By Matt Cone***
+
 *****
 
 # Headings <a id="headings"></a>
 [Back to Top](#top)<br>
-To make a heading, put # in front of the text. The number of number sign you use correspond to heading level. For example, if you put 3 number signs, the heading level is 3.
+To make a heading, put `#` in front of the text. The number of `#` sign you use correspond to heading level. For example, if you put 3 `#` signs, the heading level is 3.
 |Markdown                      |HTML                            | Output                   |
 |------------------------------|--------------------------------|--------------------------|
-| ```# Heading Level 1```      | ```<h1>Heading Level 1</h1>``` | <h1>Heading Level 1</h1> |
-| ```## Heading Level 2```     | ```<h2>Heading Level 2</h2>``` | <h2>Heading Level 2</h2> |
-| ```### Heading Level 3```    | ```<h3>Heading Level 3</h3>``` | <h3>Heading Level 3</h3> |
-| ```#### Heading Level 4```   | ```<h4>Heading Level 4</h4>``` | <h4>Heading Level 4</h4> |
-| ```##### Heading Level 5```  | ```<h5>Heading Level 5</h5>``` | <h5>Heading Level 5</h5> | 
-| ```###### Heading Level 6``` | ```<h6>Heading Level 6</h6>``` | <h6>Heading Level 6</h6> |
+| ```# Heading 1```      | ```<h1>Heading 1</h1>``` | <h1>Heading 1</h1> |
+| ```## Heading 2```     | ```<h2>Heading 2</h2>``` | <h2>Heading 2</h2> |
+| ```### Heading 3```    | ```<h3>Heading 3</h3>``` | <h3>Heading 3</h3> |
+| ```#### Heading 4```   | ```<h4>Heading 4</h4>``` | <h4>Heading 4</h4> |
+| ```##### Heading 5```  | ```<h5>Heading 5</h5>``` | <h5>Heading 5</h5> | 
+| ```###### Heading 6``` | ```<h6>Heading 6</h6>``` | <h6>Heading 6</h6> |
 
 <br><br>
 
 ### Alternate Syntax
+
 Alternatively, on the line below the text add any number of == characters for heading level 1 or -- character for heading level 2.
-|Markdown                      |HTML                            | Output                   |
-|------------------------------|--------------------------------|--------------------------|
-| # Heading Level 1 <br> ------------------ | ```<h1>Heading Level 1</h1>``` | <h1>Heading Level 1</h1> |
-| ## Heading Level 2 <br> ============== | ```<h2>Heading Level 2</h2>``` | <h2>Heading Level 2</h2> |
+***Markdown***<br>
+`Heading 1`<br>
+`=========`
+
+`Heading 2`<br>
+`---------`
 
 
-| :x: Don't do this        | :heavy_check_mark: Do this|
+***Output***
+
+Heading 1
+=========
+
+Heading 2
+---------
+
+### NOTE
+
+| :x: Following code will not run| :heavy_check_mark: Following code will run|
 |--------------------------|---------------------------|
 |    #This is a heading    | # This is a heading       |
 
-**You have to put a space between number sign '#' and the heading name. You should also put blank lines before and after a heading for compatibility.**
+**You have to put a space between '#' sign and the heading name. You should also put blank lines before and after a heading for compatibility.**
 
 *****
 
@@ -133,7 +148,7 @@ If you want to create a blockquote, add a > in front of the text.
 To create an ordered list, add line items with numbers followed by periods. The numbers don't have to be in numerical order, but the list should start with the number one. To nest line items in an ordered list, indent the items four spaces or one tab.
 | Markdown                            | HTML | Output |
 |-------------------------------------|------|--------|
-| `1.` First item<br>`2.` Second item |<ol><br> <li>First item</li><br> <li>Second item</li><br> </ol> | 1. First item<br> 2. Second item |
+| `1.` First item<br>`2.` Second item |<ol><br> <li>First item</li> <li>Second item</li><br> </ol> | 1. First item <br> 2. Second item |
 
 *****
 
@@ -141,9 +156,9 @@ To create an ordered list, add line items with numbers followed by periods. The 
 To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. To nest line items in an ordered list, indent the items four spaces or one tab.
 | Markdown | HTML | Output |
 |---------------------|--------------------|----------------|
-| `- First item`<br> `- Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><br> <li>First item</li><br> <li>Second item</li><br> <li>Third item</li> </ul> |
-| `* First item`<br> `* Second item`<br> `* Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><br> <li>First item</li><br> <li>Second item</li><br> <li>Third item</li> </ul> |
-| `* First item`<br> `+ Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><br> <li>First item</li><br> <li>Second item</li><br> <li>Third item</li> </ul> |
+| `- First item`<br> `- Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><li>First item</li><li>Second item</li><li>Third item</li> </ul> |
+| `* First item`<br> `* Second item`<br> `* Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><li>First item</li><li>Second item</li><li>Third item</li> </ul> |
+| `* First item`<br> `+ Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul> <li>First item</li> <li>Second item</li><li>Third item</li> </ul> |
 
 *****
 
