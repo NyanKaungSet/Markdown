@@ -2,8 +2,8 @@
 
 1. [Headings](#headings)
 2. [Paragraphs](#paragraphs)
-3. [Line Break, bold, italic and Emphasis](#LbEBI)
-4. [Blockquotes](#Blockquotes)
+3. [Line Break, bold, italic and Emphasis](#line-break-bold-italic-and-emphasis-)
+4. [Blockquotes](#blockquotes-)
 5. [Lists](#lists)
 6. [Images](#images)
 7. [Code](#code)
@@ -12,6 +12,7 @@
 10. [Tables](#tables)
 11. [Others](#others)
 - [Sources for Badges and Emoji](https://github.com/NyanKaungSet/Markdown/blob/main/sources.md)
+- [Styling](https://github.com/NyanKaungSet/Markdown/blob/Updates/styling.md)
 
 ****Reference: The Markdown Guide By Matt Cone***
 
@@ -33,7 +34,7 @@ To make a heading, put `#` in front of the text. The number of `#` sign you use 
 
 ### Alternate Syntax
 
-Alternatively, on the line below the text add any number of == characters for heading level 1 or -- character for heading level 2.
+Alternatively, on the line below the text add any number of == characters for heading level 1 or -- character for heading level 2.<br>
 ***Markdown***<br>
 `Heading 1`<br>
 `=========`
@@ -66,7 +67,7 @@ To create paragraphs, use a blank line to separate one or more lines of text. Yo
 *****
 
 # Line Break, bold, italic and Emphasis <a id="LbEBI"></a>
-[Back to Top](#top)
+[Back to Top](#top)<br>
 ## Line Break
 There are many ways to create line break. To mention a few, 
 1. If your Markdown application suppports HTML, you can use `<br>`.
@@ -108,14 +109,13 @@ _Italicized text_<br>
 <br>
 
 ## Emphasis
-To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.
+To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase.
 | Markdown                                  | HTML                                                          | Output                                  |
 |-------------------------------------------|---------------------------------------------------------------|-----------------------------------------|
 | `This text is ***really important***.`    | `This text is <em><strong>really important.</strong></em>`    | This text is ***really important***.    |
 | `This text is ___really important___.`    | `This text is <em><strong>really important.</strong></em>`    | This text is ___really important___.    |
 | `This text is __*really important*__.`    | `This text is <em><strong>really important.</strong></em>`    | This text is __*really important*__.    |
 | `This text is **_really important_**.`    | `This text is <em><strong>really important.</strong></em>`    | This text is **_really important_**.    |
-| `This is really***very***important text.` | `This text is really<em><strong>very</strong><em> important.` | This is really***very***important text. |  
 
 <br>
 Note: The order of the `em` and `strong` tags might be reversed depending on the Markdown processor you're using. Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold and italicize the middle of a word for emphasis.
