@@ -66,7 +66,7 @@ To create paragraphs, use a blank line to separate one or more lines of text. Yo
 *****
 
 # Line Break, bold, italic and Emphasis <a id="LbEBI"></a>
-[Back to Top](#top)
+[Back to Top](#top)<br>
 ## Line Break
 There are many ways to create line break. To mention a few, 
 1. If your Markdown application suppports HTML, you can use `<br>`.
