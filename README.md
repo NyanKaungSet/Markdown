@@ -148,7 +148,7 @@ If you want to create a blockquote, add a > in front of the text.
 To create an ordered list, add line items with numbers followed by periods. The numbers don't have to be in numerical order, but the list should start with the number one. To nest line items in an ordered list, indent the items four spaces or one tab.
 | Markdown                            | HTML | Output |
 |-------------------------------------|------|--------|
-| `1.` First item<br>`2.` Second item |<ol><br> <li>First item</li> <li>Second item</li><br> </ol> | 1. First item 2. Second item |
+| `1.` First item<br>`2.` Second item |<ol><br> <li>First item</li> <li>Second item</li><br> </ol> | 1. First item <br> 2. Second item |
 
 *****
 
@@ -156,9 +156,9 @@ To create an ordered list, add line items with numbers followed by periods. The 
 To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. To nest line items in an ordered list, indent the items four spaces or one tab.
 | Markdown | HTML | Output |
 |---------------------|--------------------|----------------|
-| `- First item`<br> `- Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><br> <li>First item</li><br> <li>Second item</li><br> <li>Third item</li> </ul> |
-| `* First item`<br> `* Second item`<br> `* Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><br> <li>First item</li><br> <li>Second item</li><br> <li>Third item</li> </ul> |
-| `* First item`<br> `+ Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul> <li>First item</li> <li>Second item</li> <li>Third item</li> </ul> |
+| `- First item`<br> `- Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><li>First item</li><li>Second item</li><li>Third item</li> </ul> |
+| `* First item`<br> `* Second item`<br> `* Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul><li>First item</li><li>Second item</li><li>Third item</li> </ul> |
+| `* First item`<br> `+ Second item`<br> `- Third item`<br> |`<ul>`<br> `<li>First item</li>`<br> `<li>Second item</li>`<br> `<li>Third item</li>`<br> `</ul>` |<ul> <li>First item</li> <li>Second item</li><li>Third item</li> </ul> |
 
 *****
 
