@@ -2,8 +2,8 @@
 
 1. [Headings](#headings)
 2. [Paragraphs](#paragraphs)
-3. [Line Break, bold, italic and Emphasis](#LbEBI)
-4. [Blockquotes](#Blockquotes)
+3. [Line Break, bold, italic and Emphasis](#line-break-bold-italic-and-emphasis-)
+4. [Blockquotes](##blockquotes-)
 5. [Lists](#lists)
 6. [Images](#images)
 7. [Code](#code)
