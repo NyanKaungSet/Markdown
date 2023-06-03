@@ -11,6 +11,8 @@
 9. [Links](#links)
 10. [Tables](#tables)
 11. [Others](#others)
+
+
 - [Sources for Badges and Emoji](https://github.com/NyanKaungSet/Markdown/blob/main/sources.md)
 - [Styling](https://github.com/NyanKaungSet/Markdown/blob/Updates/styling.md)
 
@@ -263,6 +265,22 @@ Cells' widths can be vary, as shown below. The output will be the same.<br>
 `|---|----------------|`<br>
 `| lorem ipsum | something |`<br>
 
+
+## Checkboxes in Tables
+
+When adding a checkbox inside of a table, the conventional syntax will need to be modified.
+
+| Conventional Syntax | Output |
+|-----------------|--------|
+| `- [ ]` Unchecked item | Unchecked item |
+| `- [x]` Checked item | Checked item |
+
+| Modified Syntax | Output |
+|---------------------|--------|
+| `<ul><li> [ ] Unchecked item </li></ul>` | <ul><li> [ ] Unchecked item </li></ul> |
+|`<ul><li> [x] Checked item </li></ul>` | <ul><li> [x] Checked item </li></ul> |
+
+**For further information about checkbox in table view this discussion:** [How to draw checkbox or tick mark in GitHub Markdown table?](https://stackoverflow.com/questions/47344571/how-to-draw-checkbox-or-tick-mark-in-github-markdown-table)
 *****
 
 # Others <a id="others"></a>
