@@ -280,7 +280,7 @@ When adding a checkbox inside of a table, the conventional syntax will need to b
 | `<ul><li> [ ] Unchecked item </li></ul>` | <ul><li> [ ] Unchecked item </li></ul> |
 |`<ul><li> [x] Checked item </li></ul>` | <ul><li> [x] Checked item </li></ul> |
 
-**For further information about checkbox in table view this discussion:** [How to draw checkbox or tick mark in GitHub Markdown table?](https://stackoverflow.com/questions/47344571/how-to-draw-checkbox-or-tick-mark-in-github-markdown-table)
+**For further information about checkbox in table, view this discussion:** [How to draw checkbox or tick mark in GitHub Markdown table?](https://stackoverflow.com/questions/47344571/how-to-draw-checkbox-or-tick-mark-in-github-markdown-table)
 *****
 
 # Others <a id="others"></a>
