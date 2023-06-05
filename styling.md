@@ -1,13 +1,10 @@
-
 ## Adding Colors
 There is still no proper solution for coloring the text as far as I know. However, there are still some solution for adding colors.
 1. Screenshots *(Personally, I don't prefer this way since it takes quite some time to display the image.)*
 2. [Between `$$`](https://github.com/NyanKaungSet/Markdown/blob/main/styling.md#between-)
 3. [Use dif](https://github.com/NyanKaungSet/Markdown/blob/main/styling.md#using-diff)
 
-
 ### Between `$$`
-
 **Syntax**<br>
 `$\textcolor{HEX code}{\textsf{Colored text.}}$` or <br>
 `$\textcolor{color name}{\textsf{Colored text.}}$` 
@@ -28,14 +25,10 @@ $${\color{green}Preview\ text}$$
 **Output** <br>
 ${This\ is\ a\ {\color{red}Big}}\ Title$
 
-<a href="https://stackoverflow.com/questions/11509830/how-to-add-color-to-githubs-readme-md-file">See this discussion for further information.</a>
+[See this discussion for further information.](https://stackoverflow.com/questions/11509830/how-to-add-color-to-githubs-readme-md-file)
 
-
-> :information_source: **Note** :
-> They create images of text, so you will not be able to copy the texts 
-
-
-<br>
+> **Note** 
+> They create images of text, so you will not be able to copy the texts. 
 
 *One more way is creating badge with shields.io. You will also be able to add background colors. However, you will not be able to copy the text, since they are also images of text.*
 
