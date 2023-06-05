@@ -30,7 +30,13 @@ ${This\ is\ a\ {\color{red}Big}}\ Title$
 
 <a href="https://stackoverflow.com/questions/11509830/how-to-add-color-to-githubs-readme-md-file">See this discussion for further information.</a>
 
-***Note that they create images of text, so you will not be able to copy the texts*** <br>
+
+> :information_source: **Note** :
+> They create images of text, so you will not be able to copy the texts 
+
+
+<br>
+
 *One more way is creating badge with shields.io. You will also be able to add background colors. However, you will not be able to copy the text, since they are also images of text.*
 
 <hr>
