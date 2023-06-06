@@ -65,5 +65,4 @@ ${This\ is\ a\ {\color{red}Big}}\ Title$
 Following HTML tag can be aligned:
 1. h1 - h6
 2. p
-3. img
 ---
