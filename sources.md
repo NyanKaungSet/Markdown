@@ -8,6 +8,6 @@ Here are some good sources for your GitHub README.md and repo. :hugs:
 - :point_right: <a href="https://shields.io/category/build">Shields.io</a>
 - :point_right: <a href="https://github.com/anuraghazra/github-readme-stats">Readme Stats by anuraghazra</a>
 ***
-- :point_right: <a href="https://github.com/lucthienphong1120/github-trophies">About GitHub Trophies</a>
+- :point_right: <a href="https://github.com/ryo-ma/github-profile-trophy">About GitHub Trophies</a>
 - :point_right: <a href="https://github.com/Schweinepriester/github-profile-achievements">About GitHub Profile Achievements by Schweinepriester</a>
 - :point_right: <a href="https://github.com/drknzz/GitHub-Achievements">About GitHub Profile Achievements by drknzz</a>
